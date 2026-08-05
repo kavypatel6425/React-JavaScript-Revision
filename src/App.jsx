@@ -245,6 +245,12 @@ import Lac13_User from './Lecture-13/Lac13_User'
 import Lac13_Admin from './Lecture-13/Lac13_Admin'
 import Lac13_Error from './Lecture-13/Lac13_Error'
 import Lac14_Message from './Lecture-14/Lac14_Message'
+import Lac14_Navbar from './Lecture-14/Componants/Lac14_Navbar'
+import Lac14_DashboardCard from './Lecture-14/Componants/Lac14_DashboardCard'
+import Lac14_DigitalClock from './Lecture-14/Componants/Lac14_DigitalClock'
+import Lac14_ThemeToggle from './Lecture-14/Componants/Lac14_ThemeToggle'
+import Lac14_UserList from './Lecture-14/Componants/Lac14_UserList'
+import Lac14_WindowSize from './Lecture-14/Componants/Lac14_WindowSize'
 
 function App() {
   // let students = ["Kavy", "Hiya", "Het", "Aastha"];
@@ -970,6 +976,12 @@ function App() {
 
       <Routes>
         <Route path="/message" element={<Lac14_Message/>}/>
+        <Route path="/navbar" element={<Lac14_Navbar/>}/>
+        <Route path="/dashboardCard" element={<Lac14_DashboardCard/>}/>
+        <Route path="/digitalClock" element={<Lac14_DigitalClock/>}/>
+        <Route path="/themeToggle" element={<Lac14_ThemeToggle/>}/>
+        <Route path="/userList" element={<Lac14_UserList/>}/>
+        <Route path="/windowSize" element={<Lac14_WindowSize/>}/>
       </Routes>
     </>
   )
