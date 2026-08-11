@@ -39,6 +39,7 @@ function StudentProvider({ children }) {
   ]);
 
   const [selectedStudent, setSelectedStudent] = useState(null);
+  const [searchCount, setSearchCount] = useState("");
 
 
   return (
@@ -46,7 +47,9 @@ function StudentProvider({ children }) {
       students,
       setStudents,
       selectedStudent,
-      setSelectedStudent
+      setSelectedStudent,
+      searchCount,
+      setSearchCount,
     }}>
       {children}
     </StudentContext.Provider>

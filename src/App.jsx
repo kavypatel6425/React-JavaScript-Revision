@@ -1,4 +1,4 @@
-import React, { lazy, Suspense } from 'react'
+import React, { lazy, Suspense, useContext } from 'react'
 import Test from './Lecture-2/Test'
 // import StudentCard from './Lecture-2/StudentCard'
 import CompanyCard from './Lecture-2/CompanyCard'
@@ -252,11 +252,17 @@ import Lac14_ThemeToggle from './Lecture-14/Componants/Lac14_ThemeToggle'
 import Lac14_UserList from './Lecture-14/Componants/Lac14_UserList'
 import Lac14_WindowSize from './Lecture-14/Componants/Lac14_WindowSize'
 import Lac15_Dashbord from './Lecture-15/Student-project/Pages/Lac15_Dashbord'
+import { AuthContext } from './Lecture-15/Student-project/Context/Lac15_AuthContext'
+import Lac15_Login from './Lecture-15/Student-project/Pages/Lac15_LoginPage'
 
 function App() {
   // let students = ["Kavy", "Hiya", "Het", "Aastha"];
 
-  const Lac13_About = lazy(() => import("./Lecture-13/Lac13_About"));
+  // const Lac13_About = lazy(() => import("./Lecture-13/Lac13_About"));
+
+  const { isLogin } = useContext(AuthContext);
+
+
   return (
     <>
       {/* 
@@ -989,8 +995,11 @@ function App() {
         <Route path='/' element={<Lac15_Index/>}/>
       </Routes> */}
 
-      <Lac15_Dashbord />
-
+      {
+        isLogin
+          ? <Lac15_Dashbord />
+          : <Lac15_Login />
+      }
 
     </>
   )

@@ -3,7 +3,7 @@ import { StudentContext } from "../Context/Lac15_StudentContext";
 
 function Lac15_StudentList() {
 
-    const { students, setSelectedStudent } = useContext(StudentContext);
+    const { students, setSelectedStudent, searchCount, setSearchCount } = useContext(StudentContext);
 
     const [search, setSearch] = useState("");
 
@@ -21,38 +21,45 @@ function Lac15_StudentList() {
     return (
         <div>
 
-            <input
-                ref={inputRef}
-                type="text"
-                placeholder="Search Student"
-                value={search}
-                onChange={(e) => {
-                    prevSearchRef.current = search;
-                    setSearch(e.target.value);
-                }}
-            />
+            <div className="search">
+                <input
+                    ref={inputRef}
+                    type="text"
+                    placeholder="Search Student"
+                    value={search}
+                    onChange={(e) => {
+                        prevSearchRef.current = search;
+                        setSearch(e.target.value);
+                    }}
+                />
 
-            <h3>Current Search : {search}</h3>
+                <h3>Current Search : {search}</h3>
 
-            <h3>Previous Search : {prevSearchRef.current}</h3>
+                <h3>Previous Search : {prevSearchRef.current}</h3>
 
-            <h3>
-                {search === prevSearchRef.current
-                    ? "Same Search"
-                    : "Search Changed"}
-            </h3>
+                <h3>
+                    {search === prevSearchRef.current
+                        ? "Same Search"
+                        : "Search Changed"}
+                </h3>
+            </div>
 
-            {
-                filterStudent.map((student) => (
-                    <div key={student.id}>
-                        <h2>{student.name}</h2>
+            <div className="student-card">
+                {
+                    filterStudent.map((student) => (
+                        <div key={student.id}>
+                            <h3>{student.name}</h3>
+                            <p>{student.course}</p>
+                            <p>{student.email}</p>
 
-                        <button onClick={() => setSelectedStudent(student)}>
-                            Student Details
-                        </button>
-                    </div>
-                ))
-            }
+                            <button onClick={() => setSelectedStudent(student)}>
+                                Student Details
+                            </button>
+                            <button>Click</button>
+                        </div>
+                    ))
+                }
+            </div>
 
         </div>
     );

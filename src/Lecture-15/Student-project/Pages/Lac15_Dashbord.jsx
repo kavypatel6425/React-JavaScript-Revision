@@ -6,16 +6,22 @@ import Lac15_StudentDetails from '../Componats/Lac15_StudentDetails'
 import "../CSS/Style.css"
 import { ThemeContext } from '../Context/Lac15_ThemeContext'
 import Lac15_StudentForm from '../Componats/Lac15_StudentForm'
+import Lac15_Statistice from '../Componats/Lac15_Statistics'
+import Lac15_Sidebar from '../Componats/Lac15_Sidebar'
 
 function Lac15_Dashbord() {
   const { theme } = useContext(ThemeContext);
   return (
-    <div className={theme}>
-        <Lac15_Header/>
-        <Lac15_StudentList/>
-        <Lac15_StudentDetails/>
-        <Lac15_StudentForm/>
-        <Lac15_Footer/>
+    <div className={theme} >
+      <div className=''>
+        <Lac15_Header />
+        <Lac15_StudentList />
+        <Lac15_StudentDetails />
+        <Lac15_StudentForm />
+        <Lac15_Statistice />
+        <Lac15_Footer />
+        <Lac15_Sidebar />
+      </div>
     </div>
   )
 }
