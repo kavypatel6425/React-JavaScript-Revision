@@ -253,7 +253,10 @@ import Lac14_UserList from './Lecture-14/Componants/Lac14_UserList'
 import Lac14_WindowSize from './Lecture-14/Componants/Lac14_WindowSize'
 import Lac15_Dashbord from './Lecture-15/Student-project/Pages/Lac15_Dashbord'
 import { AuthContext } from './Lecture-15/Student-project/Context/Lac15_AuthContext'
-import Lac15_Login from './Lecture-15/Student-project/Pages/Lac15_LoginPage'
+// import Lac15_Login from './Lecture-15/Student-project/Pages/Lac15_LoginPage'
+// import UseTransition from './Lecture-17/UseTransition'
+// import Dashboard from './Lecture-17/Task-Mengment-Project/pages/Dashboard'
+import Lac19_Dashboard from './Lecture-19/Componente/Lac19_Dashboard'
 
 function App() {
   // let students = ["Kavy", "Hiya", "Het", "Aastha"];
@@ -995,12 +998,20 @@ function App() {
         <Route path='/' element={<Lac15_Index/>}/>
       </Routes> */}
 
-      {
+      {/* {
         isLogin
           ? <Lac15_Dashbord />
           : <Lac15_Login />
-      }
+      } */}
 
+
+      {/* <Routes>
+        <Route path='/useTransition' element={<UseTransition />} />
+        <Route path='/dashboard' element={<Dashboard />} />
+      </Routes> */}
+      <Routes>
+        <Route path='/dashboard' element={<Lac19_Dashboard />} />
+      </Routes>
     </>
   )
 }
