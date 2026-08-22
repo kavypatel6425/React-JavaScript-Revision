@@ -1,0 +1,159 @@
+.hero {
+  padding: 90px 0;
+  background: linear-gradient(
+    135deg,
+    #f8fafc,
+    #e0ecff
+  );
+}
+
+.heroContainer {
+  display: grid;
+  grid-template-columns: 1.2fr 1fr;
+  align-items: center;
+  gap: 50px;
+}
+
+/* Hero Content */
+
+.heroContent {
+  max-width: 650px;
+}
+
+.tag {
+  color: var(--primary-color);
+  font-size: 14px;
+  font-weight: 700;
+  letter-spacing: 1.5px;
+  margin-bottom: 16px;
+}
+
+.heading {
+  font-size: 56px;
+  line-height: 1.15;
+  margin-bottom: 20px;
+}
+
+.heading span {
+  color: var(--primary-color);
+}
+
+.description {
+  max-width: 600px;
+  color: var(--light-text);
+  font-size: 17px;
+  margin-bottom: 30px;
+}
+
+/* Buttons */
+
+.buttons {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.primaryButton,
+.secondaryButton {
+  padding: 13px 25px;
+  border-radius: 8px;
+  font-weight: 600;
+  transition: 0.3s ease;
+}
+
+.primaryButton {
+  background-color: var(--primary-color);
+  color: white;
+}
+
+.primaryButton:hover {
+  background-color: var(--primary-hover);
+  transform: translateY(-2px);
+}
+
+.secondaryButton {
+  background-color: transparent;
+  border: 1px solid var(--border-color);
+  color: var(--text-color);
+}
+
+.secondaryButton:hover {
+  border-color: var(--primary-color);
+  color: var(--primary-color);
+}
+
+/* Stats */
+
+.heroStats {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 18px;
+}
+
+.statCard {
+  padding: 28px 20px;
+  background-color: var(--card-color);
+  border: 1px solid var(--border-color);
+  border-radius: 12px;
+  transition: 0.3s ease;
+}
+
+.statCard:hover {
+  transform: translateY(-5px);
+}
+
+.statCard h2 {
+  color: var(--primary-color);
+  font-size: 32px;
+  margin-bottom: 5px;
+}
+
+.statCard p {
+  color: var(--light-text);
+  font-size: 14px;
+}
+
+/* Responsive */
+
+@media (max-width: 900px) {
+  .hero {
+    padding: 70px 0;
+  }
+
+  .heroContainer {
+    grid-template-columns: 1fr;
+    gap: 45px;
+  }
+
+  .heading {
+    font-size: 46px;
+  }
+}
+
+@media (max-width: 600px) {
+  .hero {
+    padding: 55px 0;
+  }
+
+  .heading {
+    font-size: 36px;
+  }
+
+  .description {
+    font-size: 16px;
+  }
+
+  .buttons {
+    flex-direction: column;
+    align-items: stretch;
+  }
+
+  .primaryButton,
+  .secondaryButton {
+    width: 100%;
+  }
+
+  .heroStats {
+    grid-template-columns: 1fr;
+  }
+}

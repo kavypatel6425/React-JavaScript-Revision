@@ -257,6 +257,7 @@ import { AuthContext } from './Lecture-15/Student-project/Context/Lac15_AuthCont
 // import UseTransition from './Lecture-17/UseTransition'
 // import Dashboard from './Lecture-17/Task-Mengment-Project/pages/Dashboard'
 import Lac19_Dashboard from './Lecture-19/Componente/Lac19_Dashboard'
+import Dashboard from './Lecture-21/Componentes/Dashboard'
 
 function App() {
   // let students = ["Kavy", "Hiya", "Het", "Aastha"];
@@ -1010,7 +1011,8 @@ function App() {
         <Route path='/dashboard' element={<Dashboard />} />
       </Routes> */}
       <Routes>
-        <Route path='/dashboard' element={<Lac19_Dashboard />} />
+        {/* <Route path='/dashboard' element={<Lac19_Dashboard />} /> */}
+        <Route path='/dashboard' element={<Dashboard />} />
       </Routes>
     </>
   )
