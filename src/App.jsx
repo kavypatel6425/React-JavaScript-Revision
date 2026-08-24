@@ -1,4 +1,4 @@
-import React, { lazy, Suspense, useContext } from 'react'
+import React, { lazy, Suspense, useContext, useEffect } from 'react'
 import Test from './Lecture-2/Test'
 // import StudentCard from './Lecture-2/StudentCard'
 import CompanyCard from './Lecture-2/CompanyCard'
@@ -258,13 +258,20 @@ import { AuthContext } from './Lecture-15/Student-project/Context/Lac15_AuthCont
 // import Dashboard from './Lecture-17/Task-Mengment-Project/pages/Dashboard'
 import Lac19_Dashboard from './Lecture-19/Componente/Lac19_Dashboard'
 import Dashboard from './Lecture-21/Componentes/Dashboard'
+import MainPage from './Lecture-22/Pages/MainPage'
+import Home from './Lecture-22/Pages/home'
+import About from './Lecture-22/Pages/About'
+import Contact from './Lecture-22/Pages/Contact'
+import Services from './Lecture-22/Pages/Services'
+import ProductPage from './Lecture-22/Pages/ProductPage'
 
 function App() {
   // let students = ["Kavy", "Hiya", "Het", "Aastha"];
 
   // const Lac13_About = lazy(() => import("./Lecture-13/Lac13_About"));
 
-  const { isLogin } = useContext(AuthContext);
+  // const { isLogin } = useContext(AuthContext);
+
 
 
   return (
@@ -1012,7 +1019,13 @@ function App() {
       </Routes> */}
       <Routes>
         {/* <Route path='/dashboard' element={<Lac19_Dashboard />} /> */}
-        <Route path='/dashboard' element={<Dashboard />} />
+        {/* <Route path='/dashboard' element={<Dashboard />} /> */}
+        <Route path='/' element={<Home />} />
+        <Route path='/about' element={<About />} />
+        <Route path='/contact' element={<Contact />} />
+        <Route path='/services' element={<Services />} />
+        <Route path='/productPage' element={<ProductPage />} />
+
       </Routes>
     </>
   )
