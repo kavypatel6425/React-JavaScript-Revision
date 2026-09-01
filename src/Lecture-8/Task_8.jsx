@@ -534,7 +534,7 @@ function Task_8() {
 
             {/* task - 13 */}
 
-            <h1>Job application form</h1>
+            {/* <h1>Job application form</h1>
 
             <form onSubmit={handleSubmit}>
                 <input
@@ -569,7 +569,7 @@ function Task_8() {
                 <br /><br />
 
                 <button type="submit">Book Table</button>
-            </form>
+            </form> */}
 
 
         </div>

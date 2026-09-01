@@ -1,0 +1,25 @@
+import { useEffect, useRef, useState } from "react";
+
+function Test_1() {
+  const [count, setCount] = useState(0);
+
+  const previousCount = useRef();
+
+  useEffect(() => {
+    previousCount.current = count;
+  }, [count]);
+
+  return (
+    <div>
+      <h2>Current Count: {count}</h2>
+
+      <h2>Previous Count: {previousCount.current}</h2>
+
+      <button onClick={() => setCount(count + 1)}>
+        Increase
+      </button>
+    </div>
+  );
+}
+
+export default Test_1;

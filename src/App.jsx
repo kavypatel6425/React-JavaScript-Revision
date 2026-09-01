@@ -264,6 +264,7 @@ import About from './Lecture-22/Pages/About'
 import Contact from './Lecture-22/Pages/Contact'
 import Services from './Lecture-22/Pages/Services'
 import ProductPage from './Lecture-22/Pages/ProductPage'
+import Test_1 from './Test_1'
 
 function App() {
   // let students = ["Kavy", "Hiya", "Het", "Aastha"];
@@ -1017,16 +1018,18 @@ function App() {
         <Route path='/useTransition' element={<UseTransition />} />
         <Route path='/dashboard' element={<Dashboard />} />
       </Routes> */}
-      <Routes>
+      {/* <Routes> */}
         {/* <Route path='/dashboard' element={<Lac19_Dashboard />} /> */}
         {/* <Route path='/dashboard' element={<Dashboard />} /> */}
-        <Route path='/' element={<Home />} />
+        {/* <Route path='/' element={<Home />} />
         <Route path='/about' element={<About />} />
         <Route path='/contact' element={<Contact />} />
         <Route path='/services' element={<Services />} />
-        <Route path='/productPage' element={<ProductPage />} />
+        <Route path='/productPage' element={<ProductPage />} /> */}
 
-      </Routes>
+      {/* </Routes> */}
+
+      <Test_1/>
     </>
   )
 }
