@@ -265,6 +265,9 @@ import Contact from './Lecture-22/Pages/Contact'
 import Services from './Lecture-22/Pages/Services'
 import ProductPage from './Lecture-22/Pages/ProductPage'
 import Test_1 from './Test_1'
+import WithMessge from './Lecture-26/WithMessge'
+import WrapComponent from './Lecture-26/WrapComponent'
+import Task_27 from './Lecture-27/Task_27'
 
 function App() {
   // let students = ["Kavy", "Hiya", "Het", "Aastha"];
@@ -1029,7 +1032,14 @@ function App() {
 
       {/* </Routes> */}
 
-      <Test_1/>
+      {/* <Test_1/> */}
+
+      {/* <WithMessge/> */}
+
+      {/* <WrapComponent/> */}
+
+      <Task_27/>
+      
     </>
   )
 }
