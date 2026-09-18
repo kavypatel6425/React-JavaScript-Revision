@@ -1,0 +1,347 @@
+{
+    "studentData": [
+        {
+            "name": "Kathryn Okuneva",
+            "email": "Freida.McDermott@example.com",
+            "phone": "(448) 521-3727",
+            "address": "South Charlotteport",
+            "id": "1"
+        },
+        {
+            "name": "Ms. Frances Lemke",
+            "email": "Layne.Hammes38@example.org",
+            "phone": "(663) 888-7526 x76213",
+            "address": "Cheektowaga",
+            "id": "2"
+        },
+        {
+            "name": "Darrin Rogahn MD",
+            "email": "Elmira21@example.org",
+            "phone": "1-356-818-1691 x609",
+            "address": "Fort Juanita",
+            "id": "3"
+        },
+        {
+            "name": "Daryl Davis",
+            "email": "Addison74@example.com",
+            "phone": "1-946-836-9733 x83871",
+            "address": "Kesslerton",
+            "id": "4"
+        },
+        {
+            "name": "Tami Sanford",
+            "email": "Nathen_Morissette22@example.net",
+            "phone": "1-943-524-0872 x1385",
+            "address": "Haleyfield",
+            "id": "5"
+        },
+        {
+            "name": "Ms. Isabel Crona",
+            "email": "Osbaldo.Mosciski80@example.net",
+            "phone": "1-321-880-8397 x57141",
+            "address": "Domenickville",
+            "id": "6"
+        },
+        {
+            "name": "Adrian Sipes",
+            "email": "Jewell31@example.org",
+            "phone": "1-361-611-4757 x1274",
+            "address": "New Kayamouth",
+            "id": "7"
+        },
+        {
+            "name": "Dana Kovacek PhD",
+            "email": "Wellington.McKenzie1@example.com",
+            "phone": "1-823-364-2145",
+            "address": "West Palm Beach",
+            "id": "8"
+        },
+        {
+            "name": "Harriet Bahringer",
+            "email": "Mack_Kertzmann62@example.com",
+            "phone": "1-784-729-9057 x8645",
+            "address": "Hawthorne",
+            "id": "9"
+        },
+        {
+            "name": "Mr. Jordan Lynch",
+            "email": "Joannie23@example.net",
+            "phone": "(510) 475-4828 x75785",
+            "address": "South Jeanie",
+            "id": "10"
+        },
+        {
+            "name": "Amelia Wintheiser",
+            "email": "Gwen.Kozey@example.com",
+            "phone": "1-771-802-0695 x250",
+            "address": "Maxshire",
+            "id": "11"
+        },
+        {
+            "name": "Carolyn Hagenes",
+            "email": "Gaston5@example.com",
+            "phone": "278-503-2842 x978",
+            "address": "Newport News",
+            "id": "12"
+        },
+        {
+            "name": "Julio Hamill",
+            "email": "Gladys.Tremblay@example.net",
+            "phone": "843.680.5126",
+            "address": "Kyliestad",
+            "id": "13"
+        },
+        {
+            "name": "Raul Corkery",
+            "email": "Keyshawn.Kihn56@example.org",
+            "phone": "1-607-208-0457",
+            "address": "Palm Springs",
+            "id": "14"
+        },
+        {
+            "name": "Dominic Berge",
+            "email": "Maureen_Zboncak65@example.org",
+            "phone": "1-482-626-2502",
+            "address": "Napa",
+            "id": "15"
+        },
+        {
+            "name": "Mrs. Vicky Schowalter",
+            "email": "Ernest.Zboncak79@example.net",
+            "phone": "421-963-2649 x10120",
+            "address": "Itzelville",
+            "id": "16"
+        },
+        {
+            "name": "Erick Ankunding",
+            "email": "Kaden.Boyer44@example.net",
+            "phone": "531.598.9620 x45585",
+            "address": "Youngstown",
+            "id": "17"
+        },
+        {
+            "name": "Cory Tremblay",
+            "email": "Gabe.Kuhic@example.net",
+            "phone": "950-269-6355 x672",
+            "address": "North Margaretbury",
+            "id": "18"
+        },
+        {
+            "name": "Kerry Kessler",
+            "email": "Makayla_Aufderhar@example.org",
+            "phone": "665-316-9889",
+            "address": "Reingerberg",
+            "id": "19"
+        },
+        {
+            "name": "Miss Sheryl Reinger DVM",
+            "email": "Emerald28@example.com",
+            "phone": "778-555-9302 x3643",
+            "address": "New Kalecester",
+            "id": "20"
+        },
+        {
+            "name": "Wm Huel-Kohler",
+            "email": "Nyah85@example.net",
+            "phone": "462-935-5048 x430",
+            "address": "Legrosstad",
+            "id": "21"
+        },
+        {
+            "name": "Marian Reynolds",
+            "email": "Lilly.Strosin-Stanton19@example.com",
+            "phone": "(999) 376-6836 x1922",
+            "address": "North Tyrique",
+            "id": "22"
+        },
+        {
+            "name": "Linda Rice",
+            "email": "Maia_Bayer@example.net",
+            "phone": "(973) 693-1504 x802",
+            "address": "West Kayleigh",
+            "id": "23"
+        },
+        {
+            "name": "Doug Fadel",
+            "email": "Carleton.Flatley@example.org",
+            "phone": "554-565-6934 x787",
+            "address": "Lilianworth",
+            "id": "24"
+        },
+        {
+            "name": "Sally Reilly",
+            "email": "Marjorie34@example.com",
+            "phone": "1-536-849-5470 x378",
+            "address": "East Niko",
+            "id": "25"
+        },
+        {
+            "name": "Mr. Chester Cartwright",
+            "email": "Elisa.Weissnat@example.org",
+            "phone": "212-745-2217 x35807",
+            "address": "East Caitlynboro",
+            "id": "26"
+        },
+        {
+            "name": "Tyrone Wiza IV",
+            "email": "Presley.Simonis@example.org",
+            "phone": "(980) 397-9506 x25004",
+            "address": "Bednarmouth",
+            "id": "27"
+        },
+        {
+            "name": "Marguerite Howe",
+            "email": "Ona86@example.org",
+            "phone": "500-821-0900 x01995",
+            "address": "Perris",
+            "id": "28"
+        },
+        {
+            "name": "Dr. Misty Zemlak",
+            "email": "Rozella.Bayer-Ernser@example.org",
+            "phone": "297-866-5071",
+            "address": "Baton Rouge",
+            "id": "29"
+        },
+        {
+            "name": "Dr. Brad Abbott",
+            "email": "Grant_Hudson@example.org",
+            "phone": "(924) 696-4641 x3716",
+            "address": "West Lolitaborough",
+            "id": "30"
+        },
+        {
+            "name": "Eunice Pfannerstill",
+            "email": "Faustino_Corkery20@example.org",
+            "phone": "1-573-529-5318 x8198",
+            "address": "Coconut Creek",
+            "id": "31"
+        },
+        {
+            "name": "Miss Tasha Nicolas",
+            "email": "Edmond39@example.net",
+            "phone": "(243) 403-2301 x43083",
+            "address": "Lake Jeanmouth",
+            "id": "32"
+        },
+        {
+            "name": "Shane Smith",
+            "email": "Berenice24@example.net",
+            "phone": "(730) 241-4366 x968",
+            "address": "Kubfield",
+            "id": "33"
+        },
+        {
+            "name": "Mr. Loren Homenick",
+            "email": "Peter.Douglas-Schaefer83@example.net",
+            "phone": "903.249.7286",
+            "address": "Port Barney",
+            "id": "34"
+        },
+        {
+            "name": "Ms. Johnnie Moen",
+            "email": "Olen33@example.org",
+            "phone": "1-892-553-8425 x4182",
+            "address": "Fort Myers",
+            "id": "35"
+        },
+        {
+            "name": "Dora Zemlak",
+            "email": "Flavio32@example.com",
+            "phone": "(248) 382-8930 x5055",
+            "address": "DuBuqueport",
+            "id": "36"
+        },
+        {
+            "name": "Rosemary Wilkinson",
+            "email": "Winifred16@example.org",
+            "phone": "(721) 649-6888 x32770",
+            "address": "Port Marleyview",
+            "id": "37"
+        },
+        {
+            "name": "Becky Bednar",
+            "email": "Mortimer_Mante95@example.net",
+            "phone": "1-506-478-9769 x992",
+            "address": "O'Connellboro",
+            "id": "38"
+        },
+        {
+            "name": "Irma Nolan",
+            "email": "Alec_McClure@example.org",
+            "phone": "276.409.4123",
+            "address": "New Silas",
+            "id": "39"
+        },
+        {
+            "name": "Mr. Horace Gorczany V",
+            "email": "Brice.Kertzmann@example.com",
+            "phone": "1-506-719-3630 x591",
+            "address": "Spokane",
+            "id": "40"
+        },
+        {
+            "name": "Virgil Konopelski",
+            "email": "Alvah94@example.com",
+            "phone": "659-945-7230",
+            "address": "Lake Terrell",
+            "id": "41"
+        },
+        {
+            "name": "Frankie Bernier",
+            "email": "Wendy72@example.net",
+            "phone": "388-240-5674 x8800",
+            "address": "Merced",
+            "id": "42"
+        },
+        {
+            "name": "Joy Sanford",
+            "email": "Oral.Batz@example.org",
+            "phone": "1-467-703-8753 x253",
+            "address": "New Dolly",
+            "id": "43"
+        },
+        {
+            "name": "Miss Rebecca Denesik",
+            "email": "Llewellyn.Spencer@example.com",
+            "phone": "1-216-302-7540 x509",
+            "address": "New Winston",
+            "id": "44"
+        },
+        {
+            "name": "Aubrey Bruen V",
+            "email": "Palma.Harris59@example.net",
+            "phone": "(230) 517-9358 x3559",
+            "address": "South Retha",
+            "id": "45"
+        },
+        {
+            "name": "Sonja Nicolas",
+            "email": "Orlo38@example.com",
+            "phone": "854.778.5220 x421",
+            "address": "East Lysanneport",
+            "id": "46"
+        },
+        {
+            "name": "Marshall Simonis",
+            "email": "Rachelle.Douglas@example.net",
+            "phone": "1-699-362-9413",
+            "address": "Stellaburgh",
+            "id": "47"
+        },
+        {
+            "name": "Bennie Kub II",
+            "email": "Zetta36@example.org",
+            "phone": "1-809-859-2625 x0505",
+            "address": "Garrettchester",
+            "id": "48"
+        },
+        {
+            "name": "Terrance Greenfelder-Muller",
+            "email": "Enid.Mosciski71@example.org",
+            "phone": "291-644-2782",
+            "address": "Lake Darian",
+            "id": "49"
+        }
+    ]
+}

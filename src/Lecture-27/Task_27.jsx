@@ -6,8 +6,13 @@ import ProblemComponent from './ProblemComponent'
 import Footer from './Footer'
 import Sidebar from './Sidebar'
 import MainContent from './MainContent'
+import EnvironmentInfo from './EnvironmentInfo'
 
 function Task_27() {
+
+  const appName = import.meta.env.VITE_APP_NAME;
+  const apiUrl = import.meta.env.VITE_API_URL;
+  const version = import.meta.env.VITE_APP_VERSION;
   return (
     <>
       {/* <Header />
@@ -28,7 +33,7 @@ function Task_27() {
       <Footer /> */}
 
 
-      <ErrorBoundary section="Header">
+      {/* <ErrorBoundary section="Header">
         <Header />
       </ErrorBoundary>
 
@@ -42,9 +47,16 @@ function Task_27() {
 
       <ErrorBoundary section="Footer">
         <Footer />
-      </ErrorBoundary>
+      </ErrorBoundary> */}
 
 
+      <h1>{appName}</h1>
+
+      <p>API URL: {apiUrl}</p>
+
+      <p>Version: {version}</p>
+
+      <EnvironmentInfo />
     </>
   )
 }

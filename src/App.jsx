@@ -268,6 +268,8 @@ import Test_1 from './Test_1'
 import WithMessge from './Lecture-26/WithMessge'
 import WrapComponent from './Lecture-26/WrapComponent'
 import Task_27 from './Lecture-27/Task_27'
+import StudentData from './Lecture-28/StudentData'
+import CustomStudentdata from './Lecture-28/CustomStudentdata'
 
 function App() {
   // let students = ["Kavy", "Hiya", "Het", "Aastha"];
@@ -1038,8 +1040,11 @@ function App() {
 
       {/* <WrapComponent/> */}
 
-      <Task_27/>
+      {/* <Task_27/> */}
       
+      {/* <StudentData/> */}
+
+      <CustomStudentdata/>
     </>
   )
 }
