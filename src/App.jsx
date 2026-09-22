@@ -270,6 +270,9 @@ import WrapComponent from './Lecture-26/WrapComponent'
 import Task_27 from './Lecture-27/Task_27'
 import StudentData from './Lecture-28/StudentData'
 import CustomStudentdata from './Lecture-28/CustomStudentdata'
+import Counter from './Lecture-30/Counter'
+import ApiReducer from './Lecture-30/ApiReducer'
+import App_1 from './Pressantesan/App_1'
 
 function App() {
   // let students = ["Kavy", "Hiya", "Het", "Aastha"];
@@ -1024,9 +1027,9 @@ function App() {
         <Route path='/dashboard' element={<Dashboard />} />
       </Routes> */}
       {/* <Routes> */}
-        {/* <Route path='/dashboard' element={<Lac19_Dashboard />} /> */}
-        {/* <Route path='/dashboard' element={<Dashboard />} /> */}
-        {/* <Route path='/' element={<Home />} />
+      {/* <Route path='/dashboard' element={<Lac19_Dashboard />} /> */}
+      {/* <Route path='/dashboard' element={<Dashboard />} /> */}
+      {/* <Route path='/' element={<Home />} />
         <Route path='/about' element={<About />} />
         <Route path='/contact' element={<Contact />} />
         <Route path='/services' element={<Services />} />
@@ -1041,10 +1044,15 @@ function App() {
       {/* <WrapComponent/> */}
 
       {/* <Task_27/> */}
-      
+
       {/* <StudentData/> */}
 
-      <CustomStudentdata/>
+      {/* <CustomStudentdata/> */}
+
+      {/* <Counter/> */}
+      <ApiReducer />
+
+      {/* <App_1/> */}
     </>
   )
 }
