@@ -273,6 +273,7 @@ import CustomStudentdata from './Lecture-28/CustomStudentdata'
 import Counter from './Lecture-30/Counter'
 import ApiReducer from './Lecture-30/ApiReducer'
 import App_1 from './Pressantesan/App_1'
+import StudentReducer from './Lecture-32/StudentReducer'
 
 function App() {
   // let students = ["Kavy", "Hiya", "Het", "Aastha"];
@@ -1050,9 +1051,10 @@ function App() {
       {/* <CustomStudentdata/> */}
 
       {/* <Counter/> */}
-      <ApiReducer />
+      {/* <ApiReducer /> */}
 
       {/* <App_1/> */}
+      <StudentReducer/>
     </>
   )
 }

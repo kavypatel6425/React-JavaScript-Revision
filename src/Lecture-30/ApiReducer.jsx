@@ -26,6 +26,8 @@ function ApiReducer() {
                     <p>{student.course}</p>
                 </div>
             ))}
+
+            
         </>
     )
 }
